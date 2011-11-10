@@ -1,0 +1,19 @@
+#Sources 
+:sources: 
+  Product: 
+    :poll_interval: 30
+
+:test: 
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+:production: 
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+:development: 
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :c2dm_username: rhoc2dm
+  :authtoken: DQAAAKwAAAB8z_A0yFibr99oJa9ITeAZpIvYApUxgXg39eGNuE7A4VZ4oLWiaFtxIQfqg8MI3LaYRyubqN0kqSf6cnYgYHumBDG3a2mHj6TlmKbUcD6ZzlGqumk6in9sSWktagqDQpf5BoMYC3GBTIpsnVwullv-2Mjl10Y43OOX89kzToDrPVHlcVVhzhHL2JdCClJriMHblfREKFP0iJuo4hCEFEQvZ52n5P25aGehpwHXHx-8MQ
